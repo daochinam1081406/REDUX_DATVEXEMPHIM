@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.homepage {
+  background: url(../public/img/Avenger.jpg);
+  height: 100%;
+  width: 100%;
+}
+table {
+  background-color: #607d8b00;
+}
+.main-font {
+  color: gold;
+}
+.sub-font {
+  color: whitesmoke;
+}
+.hinhthang-gold {
+  position: relative;
+  width: 100%; /* Bằng chiều rộng của table */
+  height: 0;
+  padding-bottom: 3rem; /* Chiều cao của hình thang */
+
+  background: linear-gradient(transparent 49%, gold 50%); /* Màu vàng */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Bóng đổ */
+}
+.btn {
+  --bs-btn-padding-x: 0.5rem;
+}
