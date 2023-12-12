@@ -7,7 +7,6 @@ export default function SeatItem({ seat, isSelected }) {
   const dispatch = useDispatch();
 
   const handleSelect = () => {
-    console.log(seat);
     dispatch(selectSeat(seat));
   };
 

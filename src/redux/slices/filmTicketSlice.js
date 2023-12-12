@@ -1,5 +1,3 @@
-// Trong filmTicketSlice.js
-
 import { createSlice } from "@reduxjs/toolkit";
 
 const filmTicketSlice = createSlice({

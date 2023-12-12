@@ -13,6 +13,10 @@ export default function Tickets() {
 
   return (
     <div>
+      <button className="btn btn-danger"> Ghế đã được đặt</button>
+      <button className="btn btn-success"> Ghế đang chọn</button>
+      <button className="btn btn-secondary"> Ghế chưa chọn</button>
+
       <h3 className="sub-font">Danh sách ghế đang chọn</h3>
       {selectedSeats.map((seat) => (
         <div

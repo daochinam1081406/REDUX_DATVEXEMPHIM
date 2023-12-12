@@ -18,6 +18,7 @@ code {
 }
 table {
   background-color: #607d8b00;
+  width: 100%;
 }
 .main-font {
   color: gold;
@@ -32,8 +33,19 @@ table {
   padding-bottom: 3rem; /* Chiều cao của hình thang */
 
   background: linear-gradient(transparent 49%, gold 50%); /* Màu vàng */
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Bóng đổ */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2),
+    0 0 10px rgba(255, 255, 255, 0.5) inset; /* Bóng đổ và độ sáng */
+  text-align: center;
+  color: aliceblue;
+
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    75% 100%,
+    25% 100%
+  ); /* Chỉnh sửa clip-path */
 }
+
 .btn {
   --bs-btn-padding-x: 0.5rem;
 }

@@ -30,7 +30,7 @@ const filmTicketReducer = (state = initialState, action) => {
     case REMOVE_SEAT: {
       const seatToRemove = action.payload;
       const updatedSelectedSeats = state.selectedSeats.filter(
-        (item) => item.id !== seatToRemove.id
+        (item) => item.name !== seatToRemove.name
       );
       const updatedTotalPrice = state.totalPrice - seatToRemove.price;
 
